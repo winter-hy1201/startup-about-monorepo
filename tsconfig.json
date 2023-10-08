@@ -1,0 +1,4 @@
+{
+  //继承根目录定义的公用ts配置，达成统一配置文件的目的
+  "extends": "./tsconfig.base.json"
+}
