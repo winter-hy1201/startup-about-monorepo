@@ -18,7 +18,13 @@ importers:
         specifier: workspace:^
         version: link:../../packages/utils
 
+  packages/hooks: {}
+
+  packages/ui: {}
+
   packages/utils: {}
+
+  packages/vueComponent: {}
 
 packages:
 
