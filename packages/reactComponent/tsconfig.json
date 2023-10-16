@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "@startup-about-monorepo/react_component": [
+        "src"
+      ],
+      "@startup-about-monorepo/react_component/*": [
+        "src/*",
+        "*"
+      ]
+    }
+  },
+  "include": [
+    ".dumirc.ts",
+    "src/**/*"
+  ]
+}
