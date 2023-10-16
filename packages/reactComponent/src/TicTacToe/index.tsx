@@ -104,6 +104,8 @@ const TicTacToe: FC = () => {
     console.log('subIndex', subIndex, 'parentIndex', parentIndex);
     if (isCover() || isWin()) {
       alert(isCover() ? COVER_PROMPT : WIN_PROMPT);
+    } else if (board[parentIndex][subIndex]) {
+      alert('格子已有落子');
     } else {
       const cloneArr = _.cloneDeep(board);
       cloneArr[parentIndex][subIndex] = currentChessPieces;
